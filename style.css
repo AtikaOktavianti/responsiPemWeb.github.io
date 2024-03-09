@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('bg1.jpeg');
+}
+header {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+h1 {
+    font-family: 'poppins', sans-serif;
+    color: #ecf0f1;
+}
+nav {
+    background-color: #adb5bd;
+    text-align: center;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+#index img {
+    float: left;
+    width: 300px;
+    margin-right: 20px;
+}
+nav a {
+    color: #212529;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: 'comic sans ms';
+}
+nav a:hover {
+    background-color: #6c757d;
+    color: #ffffff;
+}
+
+#index h2 {
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+    margin: 15px;
+    text-align: center;
+    clear: both;
+}
+#index p{
+    font-size: 15px;
+    font-family: 'comic sans ms';
+    text-align: center;
+}
+section {
+    padding: 20px;
+    min-height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#analisis1 h2,
+#analisis2 h2{
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+    margin: 15px;
+    text-align: center;
+    clear: both; 
+}
+#analisis1 p,
+#analisis2 p {
+    font-size: 15px;
+    font-family: 'comic sans ms';
+    text-align: center;
+}
+.analisis-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.form {
+    flex: 0 1 calc(45% - 20px); /* agar form bersebelahan dengan jarak */
+    max-width: 500px; /* Lebar maksimum form */
+    background-color: #f9f9f9; /* Warna latar belakang form */
+    padding: 20px; /* Padding form */
+    margin-bottom: 10px; /* Jarak antara form dengan elemen di bawahnya */
+    border-radius: 10px; /* Sudut form */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+}
+
+.form img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.form p {
+    font-size: 14px;
+    margin: 0;
+}
+#contact h1{
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+    text-align: center;
+}
+#contact p{
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    text-align: center; 
+}
+.button {
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #303952;
+} 
